@@ -17,8 +17,6 @@ public class LambdaInterfaceTest {
   private Converter<String, String> stringConverter;
   private PersonFactory<Person> personFactory;
 
-
-
   @Before
   public void setup() {
     converter = (from) -> Integer.valueOf(from);
