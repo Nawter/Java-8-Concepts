@@ -53,7 +53,7 @@ public class LambdaComparator {
     Collections.sort(names, (a, b) -> a.compareTo(b));
     assertEquals(names, namesSortExpected);
   }
-  
+
   @Test
   public void checkJava8ComparatorReverseOrder() {
     names.sort(Collections.reverseOrder());
