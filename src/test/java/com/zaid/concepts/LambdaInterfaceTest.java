@@ -2,7 +2,6 @@ package com.zaid.concepts;
 
 import static org.junit.Assert.assertEquals;
 
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -49,7 +48,4 @@ public class LambdaInterfaceTest {
     Person person = personFactory.create("zaid", "alissa");
     assertEquals("zaid", person.getFirstName());
   }
-
-
-
 }
